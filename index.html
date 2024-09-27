@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookReader</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/b5da5fb825.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <div class="main-section">
+            <nav>
+                <div class="logo">
+                    <h1>putlogo</h1>
+                </div>
+                <div class="links">
+                    <a href="#">Register</a>
+                    <a href="#">Login</a>
+                </div>
+            </nav>
+
+            <div class="main-section">
+                <h3>put a descriptive write-up</h3>
+                <h1>Catchy write for call to action</h1>
+                <form id="book-form">
+                    <input type="search" name="book" id="book-search" placeholder="Search publication and Titles of books">
+                    <button type="button" id="search-btn"><i class="fa-brands fa-searchengin"></i></button>
+                </form>
+
+                <!-- Section to display fetched books -->
+                <div id="bookList" class="book-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <p>Copyright @ WISE. 2024</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
