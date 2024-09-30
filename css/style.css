@@ -117,6 +117,7 @@ nav .links a:hover {
 
 
 .book-list {
+    margin-top: 1in;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);

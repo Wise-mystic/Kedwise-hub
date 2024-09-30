@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OASIS Hub</title>
+    <title>BookReader</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/b5da5fb825.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +14,7 @@
         <div class="main-section">
             <nav>
                 <div class="logo">
-                    <h1><a href="#">OASIS Hub</a></h1>
+                    <h1><a href="#">KeduWISE Hub</a></h1>
                 </div>
                 <div class="links">
                     <a href="#">Register</a>
@@ -38,7 +38,7 @@
 
     <footer>
         <div class="copyright">
-            <p>Copyright @WISE. 2024</p>
+            <p>Copyright @ KeduWISE Hub. 2024</p>
         </div>
     </footer>
 
@@ -47,3 +47,4 @@
 </body>
 
 </html>
+ 
